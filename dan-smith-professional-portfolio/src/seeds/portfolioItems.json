@@ -1,0 +1,16 @@
+[
+    {
+        "name": "JavaScript Quiz App",
+        "githubRepoLink": "https://github.com/dansmith09/Dan-Smith-04-Quiz-Web-APIs",
+        "liveLink": "https://dansmith09.github.io/Dan-Smith-04-Quiz-Web-APIs/"
+    },
+    {
+        "name": "Work Day Scheduler",
+        "githubRepoLink": "https://github.com/dansmith09/Dan-Smith-05-Work-Day-Scheduler-Third-Party-APIs",
+        "liveLink": "https://dansmith09.github.io/Dan-Smith-05-Work-Day-Scheduler-Third-Party-APIs/"
+    },
+    {
+        "name": "Social Network API",
+        "githubRepoLink": "https://github.com/dansmith09/Dan-Smith-18-NoSQL-Social-Network-API"
+    }
+]
