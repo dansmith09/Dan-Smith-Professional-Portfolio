@@ -4,7 +4,7 @@ export default function PortfolioItem({ portfolioItemsData }) {
   return (
     <div className='portfolioCard'>
         <div className='portfolioCardHeader'>
-            {portfolioItemsData.name}
+            <h3>{portfolioItemsData.name}</h3>
         </div>
         {portfolioItemsData.liveLink ? (
             <a href={portfolioItemsData.liveLink} rel="noreferrer" target='_blank'><button>View Live</button></a>
