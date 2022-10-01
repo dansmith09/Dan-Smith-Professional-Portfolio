@@ -1,13 +1,32 @@
-import React from 'react'
+import React, { useState } from 'react'
 import PortfolioItem from './PortfolioItem'
+const portfolioItemsJSONData = require('../../../seeds/portfolioItems.json');
 
 
-export default function PortfolioItems({ portfolioItemsData }) {
+
+export default function PortfolioItems() {
+    const [portfolioItems, setPortfolioItems] = useState(portfolioItemsJSONData);
+    // const handleFilterSelection = (filterValue) => {
+    //     const portfolioData = portfolioItems;
+    //     const filteredPortfolioData = [];
+    //     for (let index = 0; index < portfolioData.length; index++) {
+    //         const element = portfolioData[index];
+    //         if (element.filterValue) {
+    //             filteredPortfolioData.push(element);
+    //         }
+    //     }
+    //     setPortfolioItems(filteredPortfolioData);
+    // }
+
     return (
         <div>
             <div className='filterContainer'>
                 <label htmlFor="cars">Filter: </label>
-                <select id="filter" name="filter">
+                <select 
+                    id="filter" 
+                    name="filter"
+                    // onChange={handleFilterSelection}
+                    >
                     <option value="all">All</option>
                     <option value="front">Front End</option>
                     <option value="back">Back End</option>
@@ -17,7 +36,7 @@ export default function PortfolioItems({ portfolioItemsData }) {
                 </select>
             </div>
             <div className='portfolioContainer'>
-                {portfolioItemsData.map(item => {
+                {portfolioItems.map(item => {
                     return <PortfolioItem key={item.name} portfolioItemsData={item} />
                 })}
             </div>

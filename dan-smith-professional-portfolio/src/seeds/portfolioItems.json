@@ -12,5 +12,19 @@
     {
         "name": "Social Network API",
         "githubRepoLink": "https://github.com/dansmith09/Dan-Smith-18-NoSQL-Social-Network-API"
+    },
+    {
+        "name": "JavaScript Password Generator",
+        "githubRepoLink": "https://github.com/dansmith09/Dan-Smith-03-Password-Generator-JavaScript",
+        "liveLink": "https://dansmith09.github.io/Dan-Smith-03-Password-Generator-JavaScript/"
+    },
+    {
+        "name": "Tech Blog MVC",
+        "githubRepoLink": "https://github.com/dansmith09/Dan-Smith-14-Model-View-Controller--MVC--Tech-Blog",
+        "liveLink": "https://immense-brook-45307.herokuapp.com/"
+    },
+    {
+        "name": "Employee Tracker mySQL2",
+        "githubRepoLink": "https://github.com/dansmith09/Dan-Smith-12-Employee-Tracker-mySQL2"
     }
 ]

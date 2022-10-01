@@ -1,15 +1,12 @@
-import React, { useState } from "react";
-import Header from "./components/Header";
-import PortfolioItems from "./components/PortfolioItems";
-const portfolioItemsJSONData = require('./seeds/portfolioItems.json');
+import React from "react";
+import PageContainer from "./components/PageContainer";
+
 
 
 const App = () => {
-  const [portfolioItems, setPortfolioItems] = useState(portfolioItemsJSONData)
   return (
   <>
-    <Header />
-    <PortfolioItems portfolioItemsData={portfolioItems}/>
+    <PageContainer/>
   </>
   )
 }
