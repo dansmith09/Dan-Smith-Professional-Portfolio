@@ -31,8 +31,6 @@ export default function PortfolioItems() {
                     <option value="front">Front End</option>
                     <option value="back">Back End</option>
                     <option value="full">Full Stack</option>
-                    <option value="group">Group Project</option>
-                    <option value="web3">Web 3</option>
                 </select>
             </div>
             <div className='portfolioContainer'>

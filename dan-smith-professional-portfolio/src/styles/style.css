@@ -121,9 +121,22 @@
     align-items: stretch;
 }
 .iconLink {
-    padding-top: 2.5px;
-    font-size: 35px;
+    padding-top: 4px;
+    font-size: 34px;
     color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: stretch;
+}
+.formHolder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    width: 90%;
 }
 
 /* Changes for smaller screens */
