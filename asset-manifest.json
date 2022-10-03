@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/dan-smith-professional-portfolio/static/css/main.4e168278.css",
+    "main.js": "/dan-smith-professional-portfolio/static/js/main.8d7c1ed3.js",
+    "static/media/Daniel-Smith-Resume-2022.docx": "/dan-smith-professional-portfolio/static/media/Daniel-Smith-Resume-2022.56f4ce21e6268ac401a3.docx",
+    "static/media/fullstack.png": "/dan-smith-professional-portfolio/static/media/fullstack.0086855add9710ad1bde.png",
+    "static/media/backend.png": "/dan-smith-professional-portfolio/static/media/backend.e1bced6c30e1321039ba.png",
+    "static/media/web3.png": "/dan-smith-professional-portfolio/static/media/web3.c8e2d220a992c358fec9.png",
+    "index.html": "/dan-smith-professional-portfolio/index.html",
+    "main.4e168278.css.map": "/dan-smith-professional-portfolio/static/css/main.4e168278.css.map",
+    "main.8d7c1ed3.js.map": "/dan-smith-professional-portfolio/static/js/main.8d7c1ed3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4e168278.css",
+    "static/js/main.8d7c1ed3.js"
+  ]
+}
