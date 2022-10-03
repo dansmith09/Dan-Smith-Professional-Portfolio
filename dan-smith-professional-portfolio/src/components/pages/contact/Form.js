@@ -30,10 +30,7 @@ export default function Form() {
     }
   return (
     <div className='formHolder'>
-      <form style={{
-                backgroundImage: "url(https://cloud-01.isotile.com/basic/avatars/png/482.png)"
-            }
-        }>
+      <form>
         <h3> Get In Touch</h3>
         <p></p>
         <div>
