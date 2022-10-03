@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { IoWarningOutline } from 'react-icons/io5'
 
 export default function Form() {
     const [nameAlert, setNameAlert] = useState(false)
@@ -36,17 +37,17 @@ export default function Form() {
         <div>
             <label className='formLabel'>Name: </label>
             <input onMouseLeave={(e) => handleMouseLeaveName(e)} type='text' required placeholder='Full Name' name='name'></input>
-            {nameAlert ? <p className='alert'>* Name is required</p> : ''}
+            {nameAlert ? <p className='alert'><IoWarningOutline /> Name is required</p> : ''}
         </div>
         <div>
             <label className='formLabel'>Email: </label>
             <input onMouseLeave={(e) => handleMouseLeaveEmail(e)}  type='email' required placeholder='your_email@host.com' name='email'></input>
-            {emailAlert ? <p className='alert'>* Email is required</p> : ''}
+            {emailAlert ? <p className='alert'><IoWarningOutline /> Email is required</p> : ''}
         </div>
         <div>
             <label className='formLabel'>Message: </label>
             <textarea onMouseLeave={(e) => handleMouseLeaveMessage(e)} required placeholder='Write your message here...' rows='6' name='message' ></textarea>
-            {messageAlert ? <p className='alert'>* Message is required</p> : ''}
+            {messageAlert ? <p className='alert'><IoWarningOutline /> Message is required</p> : ''}
         </div>
         <div className='buttonHolder'>
             <button type='submit'>Submit</button>

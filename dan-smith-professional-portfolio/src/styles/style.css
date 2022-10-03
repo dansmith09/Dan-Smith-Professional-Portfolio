@@ -76,6 +76,12 @@
     border-radius: 15px;
     background-position: center;
     background-size: cover;
+    transition: 0.3s;
+    background-blend-mode: multiply;
+}
+.portfolioCard:hover {
+    transition: 0.3s;
+    background-blend-mode: normal;
 }
 
 .frontEnd {
@@ -102,6 +108,7 @@
 
 .portfolioCard button:hover {
     background-color: lightskyblue;
+    color: white;
 }
 
 .portfolioCardHeader {
@@ -190,12 +197,18 @@ form h3 {
 }
 .buttonHolder button:hover {
     background:lightskyblue;
+    color: white;
+
 }
 form input, form textarea {
     padding: 10px;
 }
 .alert {
     color: red;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 .about {
     display: flex;
@@ -238,10 +251,25 @@ iframe {
     color: black;
     border: none;
     background: rgb(223, 219, 219);
-
 }
 .resumeButton:hover {
     background:lightskyblue;
+    color: white;
+}
+.resumeListHolder {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.resumeList {
+    margin: 10px;
+    list-style: circle;
+    width: 50%;
+}
+.resumeList h3 {
+    margin-bottom: 5px;
 }
 /* Changes for smaller screens */
 @media screen and (max-width: 580px) {
