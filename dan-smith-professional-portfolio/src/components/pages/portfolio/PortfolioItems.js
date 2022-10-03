@@ -49,7 +49,3 @@ export default function PortfolioItems() {
         </div>
     )
 }
-
-// Make a function to filter based on value of select option.
-// Would be elite to render a deletable fitler button to show what it's filtering by
-// Could 
