@@ -12,8 +12,8 @@ export default function Footer() {
             <div className='footerContent'>
                 <div></div>
                 <a className='iconLink' target='_blank' href='https://github.com/dansmith09' rel="noreferrer noopener"><VscGithub /></a>
-                <a className='iconLink' target='_blank' href='https://github.com/dansmith09' rel="noreferrer noopener"><AiOutlineLinkedin /></a>
-                <a className='iconLink' target='_blank' href='https://github.com/dansmith09' rel="noreferrer noopener"><GrStackOverflow /></a>
+                <a className='iconLink' target='_blank' href='https://www.linkedin.com/in/daniel-smith-b54214105/' rel="noreferrer noopener"><AiOutlineLinkedin /></a>
+                <a className='iconLink' target='_blank' href='https://stackoverflow.com/users/19072469/dansmith09' rel="noreferrer noopener"><GrStackOverflow /></a>
                 <div></div>
             </div>
         </div>

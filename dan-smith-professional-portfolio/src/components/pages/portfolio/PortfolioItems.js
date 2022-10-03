@@ -6,17 +6,24 @@ const portfolioItemsJSONData = require('../../../seeds/portfolioItems.json');
 
 export default function PortfolioItems() {
     const [portfolioItems, setPortfolioItems] = useState(portfolioItemsJSONData);
-    // const handleFilterSelection = (filterValue) => {
-    //     const portfolioData = portfolioItems;
-    //     const filteredPortfolioData = [];
-    //     for (let index = 0; index < portfolioData.length; index++) {
-    //         const element = portfolioData[index];
-    //         if (element.filterValue) {
-    //             filteredPortfolioData.push(element);
-    //         }
-    //     }
-    //     setPortfolioItems(filteredPortfolioData);
-    // }
+
+    const handleFilterSelection = (e) => {
+        const filter = e.target.value;
+
+        setPortfolioItems(portfolioItemsJSONData)
+        
+        if(filter === 'all') {
+            return
+        }
+
+        const newPortfolioItems = portfolioItemsJSONData.filter((object) => {
+            if (object.type === filter) {
+                return object
+            }
+        })
+
+        setPortfolioItems(newPortfolioItems);
+    }
 
     return (
         <div>
@@ -25,12 +32,13 @@ export default function PortfolioItems() {
                 <select 
                     id="filter" 
                     name="filter"
-                    // onChange={handleFilterSelection}
+                    onChange={(e) => handleFilterSelection(e)}
                     >
                     <option value="all">All</option>
-                    <option value="front">Front End</option>
-                    <option value="back">Back End</option>
-                    <option value="full">Full Stack</option>
+                    <option value="frontEnd">Front End</option>
+                    <option value="backEnd">Back End</option>
+                    <option value="fullStack">Full Stack</option>
+                    <option value="web3">Web 3</option>
                 </select>
             </div>
             <div className='portfolioContainer'>

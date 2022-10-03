@@ -30,17 +30,30 @@ export default function Form() {
     }
   return (
     <div className='formHolder'>
-      <form>
-        {nameAlert ? <p className='alert'>Name is required</p> : ''}
-        <label className='formLabel'>Name: </label>
-        <input onMouseLeave={(e) => handleMouseLeaveName(e)} type='text' required placeholder='Full Name' name='name'></input>
-        {emailAlert ? <p className='alert'>Email is required</p> : ''}
-        <label className='formLabel'>Email: </label>
-        <input onMouseLeave={(e) => handleMouseLeaveEmail(e)}  type='email' required placeholder='your_email@host.com' name='email'></input>
-        {messageAlert ? <p className='alert'>Message is required</p> : ''}
-        <label className='formLabel'>Message: </label>
-        <textarea onMouseLeave={(e) => handleMouseLeaveMessage(e)} required placeholder='Write your message here...' name='message'></textarea>
-        <button type='submit'>Submit</button>
+      <form style={{
+                backgroundImage: "url(https://cloud-01.isotile.com/basic/avatars/png/482.png)"
+            }
+        }>
+        <h3> Get In Touch</h3>
+        <p></p>
+        <div>
+            <label className='formLabel'>Name: </label>
+            <input onMouseLeave={(e) => handleMouseLeaveName(e)} type='text' required placeholder='Full Name' name='name'></input>
+            {nameAlert ? <p className='alert'>* Name is required</p> : ''}
+        </div>
+        <div>
+            <label className='formLabel'>Email: </label>
+            <input onMouseLeave={(e) => handleMouseLeaveEmail(e)}  type='email' required placeholder='your_email@host.com' name='email'></input>
+            {emailAlert ? <p className='alert'>* Email is required</p> : ''}
+        </div>
+        <div>
+            <label className='formLabel'>Message: </label>
+            <textarea onMouseLeave={(e) => handleMouseLeaveMessage(e)} required placeholder='Write your message here...' rows='6' name='message' ></textarea>
+            {messageAlert ? <p className='alert'>* Message is required</p> : ''}
+        </div>
+        <div className='buttonHolder'>
+            <button type='submit'>Submit</button>
+        </div>
       </form>
     </div>
   )

@@ -24,7 +24,7 @@
 }
 
 .navLink:hover {
-    color: rgb(154, 169, 115);
+    color: lightskyblue;
 }
 
 .header ul {
@@ -38,6 +38,7 @@
 }
 
 .navLink {
+    transition: 0.3s;
     text-decoration: none;
     color: black;
 }
@@ -73,7 +74,21 @@
     padding: 10px;
     margin: 10px;
     border-radius: 15px;
+    background-position: center;
+    background-size: cover;
+}
 
+.frontEnd {
+    background-image: url('../assets/images/frontend.png');
+}
+.backEnd {
+    background-image: url('../assets/images/backend.png');
+}
+.fullStack {
+    background-image: url('../assets/images/fullstack.png');
+}
+.web3 {
+    background-image: url('../assets/images/web3.png');
 }
 
 .portfolioCard button {
@@ -86,7 +101,7 @@
 }
 
 .portfolioCard button:hover {
-    background-color: rgb(154, 169, 115);
+    background-color: lightskyblue;
 }
 
 .portfolioCardHeader {
@@ -128,17 +143,103 @@
     flex-direction: row;
     justify-content: space-evenly;
     align-items: stretch;
+    transition: 0.3s;
+}
+.iconLink:hover {
+    color: lightskyblue;
 }
 .formHolder {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
-form {
-    width: 90%;
+.formLabel {
+    font-weight: bolder;
 }
+form {
+    margin: 10px;
+    width: 90%;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: rgb(244, 243, 243);
+}
+form * {
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    border: none;
+}
+.buttonHolder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.buttonHolder button {
+    border-radius: 10px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    transition: 0.3s;
+    color: black;
+    background: rgb(223, 219, 219);
+}
+.buttonHolder button:hover {
+    background:lightskyblue;
+}
+form input, form textarea {
+    padding: 10px;
+}
+.alert {
+    color: red;
+}
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    text-align: center;
+}
+.about p {
+    margin: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.about img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 15px;
+}
+iframe {
+    width: 100%;
+    height: calc(100vh - 80px);
+}
+.resumeButtonHolder{
+    position: fixed;
+    bottom: 60px;
+    width: 100%;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+}
+.resumeButton {
+    border-radius: 10px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    transition: 0.3s;
+    color: black;
+    border: none;
+    background: rgb(223, 219, 219);
 
+}
+.resumeButton:hover {
+    background:lightskyblue;
+}
 /* Changes for smaller screens */
 @media screen and (max-width: 580px) {
     .footerContent {

@@ -4,7 +4,7 @@ import '../styles/style.css';
 export default function Navigation({ currentPage, handlePageChange }) {
   return (
     <div className='header'>
-        <h1>DanSmithDev</h1>
+        <h1>DanSmith</h1>
         <div>
             <ul>
                 <li>

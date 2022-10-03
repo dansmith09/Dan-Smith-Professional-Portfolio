@@ -1,8 +1,9 @@
 import React from 'react'
 
 export default function PortfolioItem({ portfolioItemsData }) {
+
   return (
-    <div className='portfolioCard'>
+    <div className={portfolioItemsData.type + ' portfolioCard'}>
         <div className='portfolioCardHeader'>
             <h3>{portfolioItemsData.name}</h3>
         </div>
