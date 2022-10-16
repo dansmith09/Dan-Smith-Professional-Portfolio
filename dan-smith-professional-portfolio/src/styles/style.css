@@ -24,7 +24,7 @@
 }
 
 .navLink:hover {
-    color: lightskyblue;
+    color: #5CCEA3;
 }
 
 .header ul {
@@ -46,7 +46,19 @@
 .navLinkActive {
     text-decoration: none;
     color: black;
-    border-bottom: 1px black solid;
+    border-bottom: 2px #5CCEA3 solid;
+}
+
+.aboutAvatar {
+    width: 192px;
+    height: 192px;
+    background-image: url('../assets/images/MSB.png');
+    background-position: center;
+    border-radius: 50%;
+}
+
+.about p {
+    line-height: 2;
 }
 
 .filterContainer {
@@ -80,8 +92,8 @@
     background-blend-mode: multiply;
 }
 .portfolioCard:hover {
-    transition: 0.3s;
-    background-blend-mode: normal;
+    box-shadow: #5CCEA3;
+    filter: drop-shadow(5px 5px 5px rgb(92,206,163, 0.5));
 }
 
 .frontEnd {
@@ -107,7 +119,7 @@
 }
 
 .portfolioCard button:hover {
-    background-color: lightskyblue;
+    background-color: #5CCEA3;
     color: white;
 }
 
@@ -153,7 +165,7 @@
     transition: 0.3s;
 }
 .iconLink:hover {
-    color: lightskyblue;
+    color: #5CCEA3;
 }
 .formHolder {
     display: flex;
@@ -196,7 +208,7 @@ form h3 {
     background: rgb(223, 219, 219);
 }
 .buttonHolder button:hover {
-    background:lightskyblue;
+    background:#5CCEA3;
     color: white;
 
 }
@@ -253,7 +265,7 @@ iframe {
     background: rgb(223, 219, 219);
 }
 .resumeButton:hover {
-    background:lightskyblue;
+    background:#5CCEA3;
     color: white;
 }
 .resumeListHolder {

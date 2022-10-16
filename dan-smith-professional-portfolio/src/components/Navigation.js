@@ -4,7 +4,13 @@ import '../styles/style.css';
 export default function Navigation({ currentPage, handlePageChange }) {
   return (
     <div className='header'>
-        <h1>DanSmith</h1>
+        
+        <a
+            href='#about'
+            onClick={() => handlePageChange('About')}
+            className='navLink'>
+            <h1>DanSmith</h1>
+        </a>
         <div>
             <ul>
                 <li>

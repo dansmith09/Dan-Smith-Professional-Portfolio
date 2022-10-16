@@ -5,7 +5,7 @@ import { AiOutlineDownload } from 'react-icons/ai'
 export default function Resume() {
   return (
     <div>
-        <iframe title='resume' src="https://drive.google.com/file/d/1oDHzjStvXmT29Mt4ZINAHHfh_QVHkHsw/preview" allow="autoplay"></iframe>
+        <iframe title='resume' src="https://drive.google.com/file/d/1V3II9kBXXnLxLlkJ-UKNTRQ1YBNCFoEjiT3hMm973LY/preview" allow="autoplay"></iframe>
         <div className='resumeButtonHolder'>
           <a className="resume-download"  href={dlResume} download="Resume">
             <button className='resumeButton'>Download Resume  <AiOutlineDownload /></button>
