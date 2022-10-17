@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/Dan-Smith-Professional-Portfolio/static/css/main.182fdbb5.css",
-    "main.js": "/Dan-Smith-Professional-Portfolio/static/js/main.85997a8e.js",
-    "static/media/Daniel-Smith-Resume-2022.docx": "/Dan-Smith-Professional-Portfolio/static/media/Daniel-Smith-Resume-2022.56f4ce21e6268ac401a3.docx",
-    "static/media/fullstack.png": "/Dan-Smith-Professional-Portfolio/static/media/fullstack.0086855add9710ad1bde.png",
-    "static/media/backend.png": "/Dan-Smith-Professional-Portfolio/static/media/backend.e1bced6c30e1321039ba.png",
-    "static/media/web3.png": "/Dan-Smith-Professional-Portfolio/static/media/web3.c8e2d220a992c358fec9.png",
+    "main.css": "/Dan-Smith-Professional-Portfolio/static/css/main.2102e049.css",
+    "main.js": "/Dan-Smith-Professional-Portfolio/static/js/main.87a78283.js",
+    "static/media/Daniel-Smith-Resume-2022.docx": "/Dan-Smith-Professional-Portfolio/static/media/Daniel-Smith-Resume-2022.86777d33e93387a06b57.docx",
+    "static/media/fullstack.png": "/Dan-Smith-Professional-Portfolio/static/media/fullstack.9201d116347e05aa5980.png",
+    "static/media/backend.png": "/Dan-Smith-Professional-Portfolio/static/media/backend.8ee9cd81b678e47fac8d.png",
+    "static/media/MSB.png": "/Dan-Smith-Professional-Portfolio/static/media/MSB.9744be61779ad7e38a43.png",
+    "static/media/web3.png": "/Dan-Smith-Professional-Portfolio/static/media/web3.ad61daab54c98e12699c.png",
     "index.html": "/Dan-Smith-Professional-Portfolio/index.html",
-    "main.182fdbb5.css.map": "/Dan-Smith-Professional-Portfolio/static/css/main.182fdbb5.css.map",
-    "main.85997a8e.js.map": "/Dan-Smith-Professional-Portfolio/static/js/main.85997a8e.js.map"
+    "main.2102e049.css.map": "/Dan-Smith-Professional-Portfolio/static/css/main.2102e049.css.map",
+    "main.87a78283.js.map": "/Dan-Smith-Professional-Portfolio/static/js/main.87a78283.js.map"
   },
   "entrypoints": [
-    "static/css/main.182fdbb5.css",
-    "static/js/main.85997a8e.js"
+    "static/css/main.2102e049.css",
+    "static/js/main.87a78283.js"
   ]
 }
