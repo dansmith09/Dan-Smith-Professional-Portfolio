@@ -1,5 +1,45 @@
 [
     {
+        "name": "Expense - Budgeting App",
+        "githubRepoLink": "https://github.com/dansmith09/Build-Your-Budget",
+        "liveLink": "https://buildyourbudget.herokuapp.com/",
+        "type": "fullStack"
+    },
+    {
+        "name": "Gratitude Diary App",
+        "githubRepoLink": "https://github.com/dansmith09/Gratitude",
+        "liveLink": "https://murmuring-meadow-90754.herokuapp.com/",
+        "type": "fullStack"
+    },
+    {
+        "name": "Tech Blog MVC",
+        "githubRepoLink": "https://github.com/dansmith09/Dan-Smith-14-Model-View-Controller--MVC--Tech-Blog",
+        "liveLink": "https://immense-brook-45307.herokuapp.com/",
+        "type": "fullStack"
+    },
+    {
+        "name": "Mood Diary dApp",
+        "githubRepoLink": "https://github.com/dansmith09/LearnWeb3-First-dApp-Mood-Diary",
+        "liveLink": "https://dansmith09.github.io/LearnWeb3-First-dApp-Mood-Diary/",
+        "type": "web3"
+    },
+    {
+        "name": "Social Network API",
+        "githubRepoLink": "https://github.com/dansmith09/Dan-Smith-18-NoSQL-Social-Network-API",
+        "type": "backEnd"
+    },
+    {
+        "name": "Employee Tracker mySQL2",
+        "githubRepoLink": "https://github.com/dansmith09/Dan-Smith-12-Employee-Tracker-mySQL2",
+        "type": "backEnd"
+    },
+    {
+        "name": "Jackpot Game",
+        "githubRepoLink": "https://github.com/dansmith09/Jackpot-Game",
+        "liveLink": "https://dansmith09.github.io/Jackpot-Game/",
+        "type": "frontEnd"
+    },
+    {
         "name": "JavaScript Quiz App",
         "githubRepoLink": "https://github.com/dansmith09/Dan-Smith-04-Quiz-Web-APIs",
         "liveLink": "https://dansmith09.github.io/Dan-Smith-04-Quiz-Web-APIs/",
@@ -12,32 +52,10 @@
         "type": "frontEnd"
     },
     {
-        "name": "Social Network API",
-        "githubRepoLink": "https://github.com/dansmith09/Dan-Smith-18-NoSQL-Social-Network-API",
-        "type": "backEnd"
-    },
-    {
         "name": "JavaScript Password Generator",
         "githubRepoLink": "https://github.com/dansmith09/Dan-Smith-03-Password-Generator-JavaScript",
         "liveLink": "https://dansmith09.github.io/Dan-Smith-03-Password-Generator-JavaScript/",
         "type": "frontEnd"
-    },
-    {
-        "name": "Tech Blog MVC",
-        "githubRepoLink": "https://github.com/dansmith09/Dan-Smith-14-Model-View-Controller--MVC--Tech-Blog",
-        "liveLink": "https://immense-brook-45307.herokuapp.com/",
-        "type": "fullStack"
-    },
-    {
-        "name": "Employee Tracker mySQL2",
-        "githubRepoLink": "https://github.com/dansmith09/Dan-Smith-12-Employee-Tracker-mySQL2",
-        "type": "backEnd"
-    },
-    {
-        "name": "Mood Diary dApp",
-        "githubRepoLink": "https://github.com/dansmith09/LearnWeb3-First-dApp-Mood-Diary",
-        "liveLink": "https://dansmith09.github.io/LearnWeb3-First-dApp-Mood-Diary/",
-        "type": "web3"
     },
     {
         "name": "ERC 20 Smart Contract",
