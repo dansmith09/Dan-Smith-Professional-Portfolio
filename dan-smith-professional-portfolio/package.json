@@ -2,7 +2,7 @@
   "name": "dan-smith-professional-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://dansmith09.github.io/Dan-Smith-Professional-Portfolio",
+  "homepage": "https://dansmithdev.com.au",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^11.1.0",
