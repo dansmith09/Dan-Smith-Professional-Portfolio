@@ -18,6 +18,11 @@
         "type": "fullStack"
     },
     {
+        "name": "Whitelist dApp",
+        "githubRepoLink": "https://github.com/dansmith09/LearnWeb3DAO-Whitelist-Dapp",
+        "type": "web3"
+    },
+    {
         "name": "Mood Diary dApp",
         "githubRepoLink": "https://github.com/dansmith09/LearnWeb3-First-dApp-Mood-Diary",
         "liveLink": "https://dansmith09.github.io/LearnWeb3-First-dApp-Mood-Diary/",
@@ -56,11 +61,5 @@
         "githubRepoLink": "https://github.com/dansmith09/Dan-Smith-03-Password-Generator-JavaScript",
         "liveLink": "https://dansmith09.github.io/Dan-Smith-03-Password-Generator-JavaScript/",
         "type": "frontEnd"
-    },
-    {
-        "name": "ERC 20 Smart Contract",
-        "githubRepoLink": "https://github.com/dansmith09/LearnWeb3-First-ERC20",
-        "type": "web3"
     }
-    
 ]
