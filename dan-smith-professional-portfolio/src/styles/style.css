@@ -227,6 +227,9 @@ form input, form textarea {
     justify-content: center;
     align-items: center;
 }
+.success {
+    color: rgb(102, 202, 36);
+}
 .about {
     display: flex;
     justify-content: center;
