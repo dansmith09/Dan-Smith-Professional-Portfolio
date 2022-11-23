@@ -1,5 +1,5 @@
 import React from 'react'
-import '../styles/darkStyles.css';
+import '../styles/style.css';
 
 export default function Navigation({ currentPage, handlePageChange }) {
   return (
