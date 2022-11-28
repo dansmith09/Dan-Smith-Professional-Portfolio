@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.96633363.css",
-    "main.js": "/static/js/main.fb7aa93d.js",
+    "main.js": "/static/js/main.d22479a4.js",
     "static/media/Daniel-Smith-Resume-2022.docx": "/static/media/Daniel-Smith-Resume-2022.86777d33e93387a06b57.docx",
     "static/media/fullstack.png": "/static/media/fullstack.9201d116347e05aa5980.png",
     "static/media/backend.png": "/static/media/backend.8ee9cd81b678e47fac8d.png",
@@ -9,10 +9,10 @@
     "static/media/web3.png": "/static/media/web3.ad61daab54c98e12699c.png",
     "index.html": "/index.html",
     "main.96633363.css.map": "/static/css/main.96633363.css.map",
-    "main.fb7aa93d.js.map": "/static/js/main.fb7aa93d.js.map"
+    "main.d22479a4.js.map": "/static/js/main.d22479a4.js.map"
   },
   "entrypoints": [
     "static/css/main.96633363.css",
-    "static/js/main.fb7aa93d.js"
+    "static/js/main.d22479a4.js"
   ]
 }
