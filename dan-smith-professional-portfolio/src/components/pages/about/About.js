@@ -11,7 +11,7 @@ export default function About() {
           It is my next goal to secure an exciting and challenging role where I can learn and grow as a developer.<br></br>
           Offline I enjoy practicing yoga, playing guitar, swimming in the ocean, playing golf, drinking coffee and eating meals with my friends.<br></br>
           I also play several musical instruments.<br></br>
-          </p>
+        </p>
   </div>
   )
 }

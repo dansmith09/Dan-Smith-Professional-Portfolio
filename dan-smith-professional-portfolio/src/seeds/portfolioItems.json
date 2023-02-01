@@ -6,6 +6,12 @@
         "type": "fullStack"
     },
     {
+        "name": "Web 3/NFT Game - MegaJackpot",
+        "githubRepoLink": "https://github.com/dansmith09/Web3-MegaJackpot",
+        "liveLink": "https://web3-mega-jackpot.vercel.app/",
+        "type": "web3"
+    },
+    {
         "name": "Gratitude Diary App",
         "githubRepoLink": "https://github.com/dansmith09/Gratitude",
         "liveLink": "https://murmuring-meadow-90754.herokuapp.com/",
