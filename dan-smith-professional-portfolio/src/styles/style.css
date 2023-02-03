@@ -57,9 +57,14 @@
 .aboutAvatar {
     width: 192px;
     height: 192px;
-    background-image: url('../assets/images/MSB.png');
+    background-image: url('../assets/images/Dan.png');
     background-position: center;
     border-radius: 50%;
+    transition: 0.3s;
+}
+
+.aboutAvatar:hover {
+    background-image: url('../assets/images/MSB.png');
 }
 
 .about p {
